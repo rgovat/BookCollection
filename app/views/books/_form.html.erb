@@ -28,7 +28,7 @@
   
   <div class="field">
     <%= form.label :publishedDate %>
-    <%= form.text_field :publishedDate %>
+    <%= date_select("book", "publishedDate", stary_year: 1990, use_month_numbers: true) %>
   </div>
 
 
